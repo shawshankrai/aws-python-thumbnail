@@ -32,7 +32,7 @@ provider:
           Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}"
 
 custom:
-  bucket: picture-thumbnails
+  bucket: picture-thumbnails-shashank
   dynamoTable: image-url-table
   pythonRequirements:
     dockerizePip: true
